@@ -32,3 +32,19 @@ In this exercise, we will be creating the default constructor for the Block clas
 Before we create a more dynamic blockchain, let’s learn how to use a hash function in Python. Specifically, we will be using the SHA-256 hash function which can be easily imported in Python.
 
 We will use the SHA-256 as a regular function that takes in a random string as its argument. To properly use this function in Python 3, our string must be encoded before being passed as an argument. To encode the string, we use the .encode() method.
+
+# 4. Generating Block Hashes
+Block hashes are used to uniquely identify and maintain the integrity of each block. The SHA-256 algorithm is used to generate the hash of the block using the timestamp, data, and previous hash — the three properties of our Block class!
+
+Let’s create the .generate_hash() method for the Block class.
+
+# 5. Creating The Blockchain Class
+Each computer participant has their own copy of the blockchain. Ideally, each copy of the blockchain should have the same properties and functionality to add and validate blocks.
+
+We can represent the blockchain as an object. We are using objects for our implementation, because they offer the flexibility to create specific attributes and methods. Representing it as an object also allows us to create blockchain instances for each computer participant.
+
+To review, our blockchain contains the following:
+
+- Chain: A list that holds all the blocks inside the blockchain.
+- Unverified Transactions: A list that represents all the unverified transactions before being passed into a block.
+- Genesis Block: A block automatically generated when the blockchain is initialized.
