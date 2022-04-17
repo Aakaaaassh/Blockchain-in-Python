@@ -68,3 +68,8 @@ Now that we’ve seen a simple example of Proof-of-Work, let’s integrate it in
 
 # 11.Adding Blocks to the Chain Securely
 Now that we have implemented our Proof-of-Work method, we can now work on adding new blocks securely.
+
+# 12.Blockchain Summary
+Congratulations! You have completed all the steps required to build a basic blockchain! In this exercise, we will bring the key parts together to review what we have built so far.
+
+*Note: * The blockchain we have built only exists on a local machine. It is important to know that actual blockchain applications operate on multiple computers in a decentralized manner.
