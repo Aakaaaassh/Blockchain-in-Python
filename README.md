@@ -48,3 +48,11 @@ To review, our blockchain contains the following:
 - Chain: A list that holds all the blocks inside the blockchain.
 - Unverified Transactions: A list that represents all the unverified transactions before being passed into a block.
 - Genesis Block: A block automatically generated when the blockchain is initialized.
+
+# 6. Adding Blocks to the Blockchain
+Now that we have everything in place, let’s begin adding blocks to the blockchain.
+
+# 7.Checking for a Broken Chain
+Hashing helps to maintain the integrity of the blockchain. In this exercise, we will see this in action. Let’s write a .validate_chain() method that checks to see if blocks are linked to each other properly.
+
+In order to validate the entire blockchain, we must loop through each of the blocks stored inside the blockchain itself. Then, we will check through each of the blocks to ensure that the previous hash value matches with the hash value inside our previous block.
