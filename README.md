@@ -66,3 +66,5 @@ Let’s review the concepts of nonce and proof of work. In this exercise, we wil
 # 10.Implementing Proof-of-Work
 Now that we’ve seen a simple example of Proof-of-Work, let’s integrate it into our blockchain! Complete the proof_of_work() method inside the Blockchain class.
 
+# 11.Adding Blocks to the Chain Securely
+Now that we have implemented our Proof-of-Work method, we can now work on adding new blocks securely.
