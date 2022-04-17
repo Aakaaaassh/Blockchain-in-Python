@@ -1,3 +1,4 @@
+#script.py
 # import sha256
 from hashlib import sha256
 
